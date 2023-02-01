@@ -1,0 +1,103 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+
+<div class="container-fluid">
+
+    <h3>İstatistikler</h3>
+
+    <br />
+    <br />
+
+
+    <div class="row">
+        <div class="col-12">
+            <!-- small box -->
+            <div class="small-box bg-info">
+                <div class="inner">
+                    <h5>
+                        Toplam Kategori Sayısı
+                    </h5>
+
+                    <h5>@ViewBag.categoryCount</h5>
+                </div>
+                <div class="icon">
+                    <i class="ion ion-bag"></i>
+                </div>
+
+            </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-12">
+            <!-- small box -->
+            <div class="small-box bg-success">
+                <div class="inner">
+                    <h5>
+                        Yazılım Kategorisine Ait Başlık Sayısı
+                    </h5>
+
+                    <h5>@ViewBag.headingYazilimCount</h5>
+                </div>
+                <div class="icon">
+                    <i class="ion ion-stats-bars"></i>
+                </div>
+
+            </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-12">
+            <!-- small box -->
+            <div class="small-box bg-orange">
+                <div class="inner">
+                    <h5 style="color:white">
+                        Yazar Adında 'A' Harfi Geçen Yazar Sayısı
+                    </h5>
+
+                    <h5 style="color:white">@ViewBag.writerA</h5>
+                </div>
+                <div class="icon">
+                    <i class="ion ion-person-add"></i>
+                </div>
+            </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-12">
+            <!-- small box -->
+            <div class="small-box bg-danger">
+                <div class="inner">
+                    <h5>
+                        En Fazla Başlığa Sahip Kategori Adı
+                    </h5>
+
+                    <h5>@ViewBag.headingCategoryCount</h5>
+                </div>
+                <div class="icon">
+                    <i class="ion ion-pie-graph"></i>
+                </div>
+            </div>
+        </div>
+        <!-- ./col -->
+
+        <div class="col-12">
+            <!-- small box -->
+            <div class="small-box bg-pink">
+                <div class="inner">
+                    <h5>
+                        Kategorilerde durum farkı
+                    </h5>
+
+                    <h5>Aktif : @ViewBag.categoryStatusTrue - Pasif : @ViewBag.categoryStatusFalse = @ViewBag.categoryStatusFark</h5>
+                </div>
+                <div class="icon">
+                    <i class="ion ion-pie-graph"></i>
+                </div>
+            </div>
+        </div>
+        <!-- ./col -->
+    </div>
+
+</div>

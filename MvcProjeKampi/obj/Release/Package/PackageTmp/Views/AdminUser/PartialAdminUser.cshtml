@@ -1,0 +1,53 @@
+﻿<!--Modal Add Start-->
+<div class="modal" id="modalEkle">
+
+    <div class="modal-dialog">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <div class="modal-title">
+                    <h3>Kullanıcı Ekle</h3>
+                </div>
+            </div>
+
+            <form class="form-group" action="/AdminUser/AddUser/" method="post">
+                <div class="modal-body">
+
+                    <label>Kullanıcı Adı</label>
+                    <input type="text" placeholder="Kullanıcı adını giriniz" required class="form-control" name="UserName" />
+                    <br />
+                    <label>Şifre</label>
+                    <input type="text" class="form-control" required name="Password" placeholder="*****" />
+                    <br />
+                    <label>Yetkisi</label>
+                    <select class="form-control" required name="UserRole">
+
+                        <option>Seçiniz</option>
+                        <option value="A">Tam Yetki</option>
+                        <option value="B">Kısıtlı Yetki</option>
+
+
+                    </select>
+                 
+
+                </div>
+
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-dismiss="modal">İptal</button>
+                    <button class="btn btn-success">Kaydet</button>
+
+                </div>
+            </form>
+
+
+
+        </div>
+
+    </div>
+
+</div>
+<!--Modal Add End-->
+<!-- jQuery -->
+<script src="~/webAdmin/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap -->

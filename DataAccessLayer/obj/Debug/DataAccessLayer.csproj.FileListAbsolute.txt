@@ -1,0 +1,144 @@
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityLayer.dll
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig1.resources
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_1_1.resources
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_3.resources
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_category_color.resources
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writer_img.resources
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writerStatus.resources
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_contentStatus_add.resources
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_HeadingStatus_add.resources
+C:\Users\bugra\Desktop\1- Dosyalar\Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\bugra\Desktop\1- Dosyalar\Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\bugra\Desktop\1- Dosyalar\Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\bugra\Desktop\1- Dosyalar\Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\bugra\Desktop\1- Dosyalar\Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bugra\Desktop\1- Dosyalar\Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityLayer.dll
+C:\Users\bugra\Desktop\1- Dosyalar\Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\bugra\Desktop\1- Dosyalar\Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\bugra\Desktop\1- Dosyalar\Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\bugra\Desktop\1- Dosyalar\Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bugra\Desktop\1- Dosyalar\Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\bugra\Desktop\1- Dosyalar\Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig1.resources
+C:\Users\bugra\Desktop\1- Dosyalar\Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_1_1.resources
+C:\Users\bugra\Desktop\1- Dosyalar\Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_3.resources
+C:\Users\bugra\Desktop\1- Dosyalar\Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_category_color.resources
+C:\Users\bugra\Desktop\1- Dosyalar\Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writer_img.resources
+C:\Users\bugra\Desktop\1- Dosyalar\Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writerStatus.resources
+C:\Users\bugra\Desktop\1- Dosyalar\Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_contentStatus_add.resources
+C:\Users\bugra\Desktop\1- Dosyalar\Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_HeadingStatus_add.resources
+C:\Users\bugra\Desktop\1- Dosyalar\Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+C:\Users\bugra\Desktop\1- Dosyalar\Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\bugra\Desktop\1- Dosyalar\Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\bugra\Desktop\1- Dosyalar\Dosyalar\2- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityLayer.dll
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig1.resources
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_1_1.resources
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_3.resources
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_category_color.resources
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writer_img.resources
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writerStatus.resources
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_contentStatus_add.resources
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_HeadingStatus_add.resources
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_message_add.resources
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_contactt_update.resources
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_imageFile_Add.resources
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_admin_add.resources
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_about_statusAdd.resources
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_about_yetenek_add.resources
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_about_yetenek_update.resources
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_message_update.resources
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityLayer.dll
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig1.resources
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_1_1.resources
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_3.resources
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_category_color.resources
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writer_img.resources
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writerStatus.resources
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_contentStatus_add.resources
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_HeadingStatus_add.resources
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_message_add.resources
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_contactt_update.resources
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_imageFile_Add.resources
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_admin_add.resources
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_about_statusAdd.resources
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_about_yetenek_add.resources
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_about_yetenek_update.resources
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_message_update.resources
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.denemeImage.resources
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityLayer.dll
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig1.resources
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_1_1.resources
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_3.resources
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_category_color.resources
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writer_img.resources
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writerStatus.resources
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_contentStatus_add.resources
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_HeadingStatus_add.resources
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_message_add.resources
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_contactt_update.resources
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_imageFile_Add.resources
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_admin_add.resources
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_about_statusAdd.resources
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_about_yetenek_add.resources
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_about_yetenek_update.resources
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_message_update.resources
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.denemeImage.resources
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

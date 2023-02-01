@@ -1,0 +1,153 @@
+﻿@using EntityLayer.Concrete
+@model List<Heading>
+
+
+@{
+    ViewBag.Title = "MyHeading";
+    Layout = "~/Views/Shared/_WriterLayout.cshtml";
+}
+
+
+
+
+
+@{
+    string HeadingStatus = "";
+    string HeadingStatusBtn = "";
+    string HeadingStatusColor = "";
+}
+
+
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="card-title">Başlık Listesi</h1>
+            </div>
+
+
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+
+
+<!-- Main content -->
+<section class="content">
+
+    <a href="/WriterPanel/NewHeading" class="btn btn-success">Ekle</a>
+    <br />
+    <br />
+
+    <!-- Default box -->
+    <div class="card">
+
+        <div class="card-body p-0">
+            <table class="table table-striped projects">
+                <thead>
+                    <tr>
+                        <th style="width: 1%">#</th>
+                        <th style="width: 20%">Başlık</th>
+                        <th style="width: 15%">Oluşturan Yazar</th>
+
+                        <th style="width: 8%" class="text-center badgee-">
+                            Kategori
+                        </th>
+                        <td style="width:25%"></td>
+
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var i in Model)
+                    {
+                        if (i.HeadingStatus == true)
+                        {
+                            HeadingStatus = "Aktif";
+                            HeadingStatusBtn = "Pasif Yap";
+                            HeadingStatusColor = "text-success";
+                        }
+                        else
+                        {
+                            HeadingStatus = "Pasif";
+                            HeadingStatusBtn = "Aktif Yap";
+                            HeadingStatusColor = "text-danger";
+                        }
+
+                        <tr>
+                            <th>@i.HeadingId</th>
+                            <td>
+                                <a>
+                                    @i.HeadingName
+                                </a>
+                                <br />
+                                <small>
+                                    @i.HeadingDate.ToShortDateString()
+                                </small>
+                            </td>
+                            <td>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <img alt="Avatar" class="table-avatar" src="@i.Writer.WriterImage">
+                                        @i.Writer.WriterName @i.Writer.WriterSurname
+                                    </li>
+
+                                </ul>
+                            </td>
+
+
+
+                            <td class="project-state">
+                                <span class="badge" style="background-color:@i.Category.CategoryColor">@i.Category.CategoryName</span>
+                            </td>
+                            <td class="project-actions text-right">
+                                <a class="btn btn-secondary btn-sm" href="/AdminContent/Index/@i.HeadingId/">
+                                    <i class="fas fa-folder">
+                                    </i>
+                                    Yazılar
+                                </a>
+
+                                <a class="btn btn-warning btn-sm" href="/WriterPanel/EditHeading/@i.HeadingId/">
+                                    <i class="fas fa-pencil-alt">
+                                    </i>
+                                    Düzenle
+                                </a>
+
+                                @if (HeadingStatusBtn == "Pasif Yap")
+                                {
+
+                                    <a class="btn btn-danger btn-sm" href="/WriterPanel/DeleteHeading/@i.HeadingId/">
+                                        <i class="fas fa-trash">
+                                        </i>
+                                        @HeadingStatusBtn
+                                    </a>
+                                }
+
+                                @if (HeadingStatusBtn == "Aktif Yap")
+                                {
+
+                                    <a class="btn btn-success btn-sm">
+                                        <i class="fas fa-trash">
+                                        </i>
+                                        @HeadingStatusBtn
+                                    </a>
+                                }
+
+
+                            </td>
+
+
+
+
+                        </tr>
+
+                    }
+
+                </tbody>
+            </table>
+        </div>
+        <!-- /.card-body -->
+    </div>
+    <!-- /.card -->
+
+</section>

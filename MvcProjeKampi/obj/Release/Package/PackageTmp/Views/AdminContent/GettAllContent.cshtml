@@ -1,0 +1,65 @@
+﻿@using EntityLayer.Concrete
+@model List<Content>
+
+@{
+    ViewBag.Title = "GettAllContent";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<h3>Yazılar Listesi</h3>
+<br />
+<br />
+
+<div class="container">
+
+    @using (Html.BeginForm("GettAllContent", "AdminContent", FormMethod.Post))
+    {
+        <div class="row">
+            <div class="col-md-4">
+            </div>
+
+            <div class="col-md-8">
+                <div class="row">
+
+                    <div class="col-md-8">
+                        <input type="text" placeholder="Aranacak Kelimeyi Giriniz :" class="form-control" name="p" />
+
+                    </div>
+                    <div class="col-md-4">
+
+                        <input type="submit" value="Ara" class="btn btn-secondary" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+
+    }
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Yazılar</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @{int i = 1; }
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th scope="row">@i</th>
+                    <td>@item.ContentValue</td>
+                </tr>
+                i++;
+            }
+
+        </tbody>
+    </table>
+
+
+
+
+</div>
+

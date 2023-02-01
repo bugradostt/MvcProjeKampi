@@ -1,0 +1,93 @@
+﻿@model EntityLayer.Concrete.Writer
+
+@{
+    ViewBag.Title = "WriterProfile";
+    Layout = "~/Views/Shared/_WriterLayout.cshtml";
+}
+
+<br />
+
+<div class="container-fluid">
+
+
+    <h3>Profilim</h3>
+
+    <br />
+
+    <form class="form-group" method="post">
+        <input type="text" hidden class="form-control" name="WriterId" value="@Html.ValueFor(x => x.WriterId)" />
+
+        <br />
+        <h5>Yazar Adı</h5>
+        <input type="text" disabled class="form-control" name="WriterName" value="@Html.ValueFor(x => x.WriterName)" />
+        <span style="color:red;">
+            @Html.ValidationMessageFor(x => x.WriterName)
+        </span>
+        <br />
+        <h5>Yazar Soyadı</h5>
+        <input type="text" disabled class="form-control" name="WriterSurname" value="@Html.ValueFor(x => x.WriterSurname)" />
+        <span style="color:red;">
+            @Html.ValidationMessageFor(x => x.WriterSurname)
+        </span>
+
+        <br />
+
+        <h5>Mail</h5>
+        <input type="email" disabled class="form-control" name="WriterMail" value="@Html.ValueFor(x => x.WriterMail)" />
+        <br />
+
+
+        <h5>Yazar Ünvanı</h5>
+        <input type="text" disabled class="form-control" name="WriterTitle" value="@Html.ValueFor(x => x.WriterTitle)" />
+        <span style="color:red;">
+            @Html.ValidationMessageFor(x => x.WriterTitle)
+        </span>
+        <br />
+
+        <h5>Şifre</h5>
+        <input type="password" disabled class="form-control" name="WriterPassword" value="@Html.ValueFor(x => x.WriterPassword)" />
+        <br />
+
+        <h5>Yazar Fotoğraf Url</h5>
+        <input type="text" disabled class="form-control" name="WriterImage" value="@Html.ValueFor(x => x.WriterImage)" />
+        <br />
+
+        <h5>Hakkında</h5>
+        <textarea name="WriterAbout" disabled rows="4" class="form-control"> @Html.ValueFor(x=>x.WriterAbout) </textarea>
+        <span style="color:red;">
+            @Html.ValidationMessageFor(x => x.WriterAbout)
+        </span>
+
+        <br />
+
+
+
+        <div class="row">
+
+            <div class="col-md-2">
+
+                <div class="row">
+
+                   
+
+                    <div class="col-md-12">
+                        <a href="/WriterPanel/EditWriter/" class="btn btn-success form-control ">Güncelle</a>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="col-md-10">
+
+            </div>
+
+        </div>
+    </form>
+
+</div>
+
+
+<br />

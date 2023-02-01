@@ -1,0 +1,95 @@
+﻿@model EntityLayer.Concrete.Writer
+
+@{
+    ViewBag.Title = "EditWriter";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+
+<div class="container-fluid">
+
+
+    <h3>Yazar Güncelle</h3>
+
+    <br />
+
+    <form class="form-group" method="post">
+        <input type="text" hidden class="form-control" name="WriterId" value="@Html.ValueFor(x => x.WriterId)" />
+
+        <br />
+        <h5>Yazar Adı</h5>
+        <input type="text" class="form-control" name="WriterName" value="@Html.ValueFor(x => x.WriterName)" />
+        <span style="color:red;">
+            @Html.ValidationMessageFor(x => x.WriterName)
+        </span>
+        <br />
+        <h5>Yazar Soyadı</h5>
+        <input type="text" class="form-control" name="WriterSurname" value="@Html.ValueFor(x => x.WriterSurname)" />
+        <span style="color:red;">
+            @Html.ValidationMessageFor(x => x.WriterSurname)
+        </span>
+
+        <br />
+
+        <h5>Mail</h5>
+        <input type="email" class="form-control" name="WriterMail" value="@Html.ValueFor(x => x.WriterMail)" />
+        <br />
+
+
+        <h5>Yazar Ünvanı</h5>
+        <input type="text" class="form-control" name="WriterTitle" value="@Html.ValueFor(x => x.WriterTitle)" />
+        <span style="color:red;">
+            @Html.ValidationMessageFor(x => x.WriterTitle)
+        </span>
+        <br />
+
+        <h5>Şifre</h5>
+        <input type="text" class="form-control" name="WriterPassword" value="@Html.ValueFor(x => x.WriterPassword)" />
+        <br />
+
+        <h5>Yazar Fotoğraf Url</h5>
+        <input type="text" class="form-control" name="WriterImage" value="@Html.ValueFor(x => x.WriterImage)" />
+        <br />
+
+        <h5>Hakkında</h5>
+        <textarea name="WriterAbout" rows="4" class="form-control"> @Html.ValueFor(x=>x.WriterAbout) </textarea>
+        <span style="color:red;">
+            @Html.ValidationMessageFor(x => x.WriterAbout)
+        </span>
+
+        <br />
+
+
+        <div class="row">
+
+            <div class="col-md-8">
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <a href="/AdminWriter/Index/" class="btn btn-danger form-control">İptal</a>
+
+                    </div>
+
+                    <div class="col-md-6">
+                        <button class="btn btn-warning form-control ">Güncelle</button>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </form>
+
+</div>
+
+
+<br />

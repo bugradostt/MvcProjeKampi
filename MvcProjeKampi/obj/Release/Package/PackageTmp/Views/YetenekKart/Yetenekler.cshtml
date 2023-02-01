@@ -1,0 +1,32 @@
+﻿@using EntityLayer.Concrete
+@model List<Yetenekler>
+
+
+
+
+@foreach (var i in Model)
+{
+<div value='0' class="text-right">
+    <a href="/YetenekKart/EditYetenek/@i.YeteneklerId/" class="btn btn-warning btn-sm">
+        <i class="fas fa-pencil-alt">
+        </i>
+
+    </a>
+
+    <a href="/YetenekKart/DeleteYetenek/@i.YeteneklerId/" class="btn btn-danger btn-sm">
+        <i class="fas fa-trash">
+        </i>
+
+    </a>
+</div>
+    <div class='bar_group__bar thin' label='@i.YeteneklerName &nbsp;-&nbsp; @i.YeteneklerValue%' value='@i.YeteneklerValue'></div>
+
+
+
+}
+
+    
+
+<!--En büyük değeri tamamını referans aldığı için 100% değeri alması için yazılmıştır-->
+<div class='bar_group__bar thin' hidden value='100'></div>
+

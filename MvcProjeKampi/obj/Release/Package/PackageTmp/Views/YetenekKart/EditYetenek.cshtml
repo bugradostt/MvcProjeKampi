@@ -1,0 +1,76 @@
+﻿@model EntityLayer.Concrete.Yetenekler
+
+@{
+    ViewBag.Title = "EditYetenek";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+
+<div class="container-fluid">
+
+
+    <h3>Yetenek Güncelle</h3>
+
+    <br />
+    <br />
+
+
+
+    @using (Html.BeginForm("EditYetenek", "YetenekKart", FormMethod.Post))
+    {
+
+        <input type="text" hidden class="form-control" name="YeteneklerId" value="@Html.ValueFor(x => x.YeteneklerId)" />
+
+        <br />
+        <h5>Yetenek Adı</h5>
+        <input type="text" required class="form-control" name="YeteneklerName" value="@Html.ValueFor(x => x.YeteneklerName)" />
+
+        <br />
+
+        <label>Yetenek Değeri</label>
+        
+        <input type="range" required class="range1 form-control" name="YeteneklerValue" value="@Html.ValueFor(x => x.YeteneklerValue)" min="0" max="100" onmousemove="rangeSlider(this.value)">
+        <span id="rangeValue">@Html.ValueFor(x => x.YeteneklerValue)</span>
+
+
+
+        <br />
+
+
+        <div class="row">
+
+            <div class="col-md-8">
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <a href="/YetenekKart/Index/" class="btn btn-danger form-control">İptal</a>
+
+                    </div>
+
+                    <div class="col-md-6">
+                        <button class="btn btn-warning form-control ">Güncelle</button>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+    }
+
+</div>
+
+<script>
+    /* range */
+    function rangeSlider(value) {
+        document.getElementById('rangeValue').innerHTML = value;
+    }
+</script>

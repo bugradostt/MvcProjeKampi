@@ -1,0 +1,138 @@
+﻿@using EntityLayer.Concrete
+@model List<About>
+
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@{
+    string AboutStatus = "";
+    string AboutStatusBtn = "";
+    string AboutStatusColor = "";
+}
+
+
+
+
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="card-title">Hakkımızda Listesi</h1>
+            </div>
+
+
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+
+<button class="btn btn-success" data-toggle="modal" data-target="#modalEkle">Yeni Ekle</button>
+<br />
+<br />
+
+
+<!-- Main content -->
+<section class="content">
+
+    <!-- Default box -->
+    <div class="card">
+
+        <div class="card-body p-0">
+            <table class="table table-striped projects">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Detay 1</th>
+                        <th>Fotoğraf 1</th>
+                        <th>Detay 2</th>
+                        <th>Fotoğraf 2</th>
+                        <th>Durumu</th>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var i in Model)
+                    {
+                        if (i.AboutStatus == true)
+                        {
+                            AboutStatus = "Aktif";
+                            AboutStatusBtn = "Pasif Yap";
+                            AboutStatusColor = "text-success";
+                        }
+                        else
+                        {
+                            AboutStatus = "Pasif";
+                            AboutStatusBtn = "Aktif Yap";
+                            AboutStatusColor = "text-danger";
+                        }
+
+                        <tr>
+                            <th>@i.AboutId</th>
+                            <td>@i.AboutDetails1</td>
+                            <td>
+                                <img width="100" height="100" src="@i.AboutImage1" />
+                            </td>
+                            <td>@i.AboutDetails2</td>
+                            <td>
+                                <img width="100" height="100" src="@i.AboutImage2" />
+                            </td>
+                            <td class="@AboutStatusColor">@AboutStatus</td>
+                            <td>
+                                <a class="btn btn-warning btn-sm" href="/AdminAbout/EditAbout/@i.AboutId/">
+                                    <i class="fas fa-pencil-alt">
+                                    </i>
+                                    Düzenle
+                                </a>
+
+                            </td>
+                            <td>
+
+
+
+                              
+                                @if (AboutStatusBtn == "Aktif Yap")
+                                {
+                                    <a class="btn btn-success btn-sm" href="/AdminAbout/AktifStatus/@i.AboutId/">
+                                        <i class="fas fa-trash">
+                                        </i>
+                                        @AboutStatusBtn
+                                    </a>
+
+                                }
+                                else
+                                {
+                                    <a class="btn btn-danger btn-sm" href="/AdminAbout/PasifStatus/@i.AboutId/">
+                                        <i class="fas fa-trash">
+                                        </i>
+                                        @AboutStatusBtn
+                                    </a>
+                                   
+                                }
+                            </td>
+                            
+
+
+
+
+
+
+                        </tr>
+
+                    }
+
+                </tbody>
+            </table>
+        </div>
+        <!-- /.card-body -->
+    </div>
+    <!-- /.card -->
+
+</section>
+
+@Html.Action("AboutPartial", "AdminAbout")

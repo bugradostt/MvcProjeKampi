@@ -1,0 +1,125 @@
+﻿@model EntityLayer.Concrete.Writer
+
+
+@{
+    ViewBag.Title = "AddWriter";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@{ 
+    string PasswordStatus = "password";
+}
+
+<br />
+
+
+<div class="container">
+
+    <h3>Yazar Ekleme</h3>
+
+    <br />
+    <br />
+
+    <form class="form-group" method="post">
+        <div>
+            <h5>Yazar Adı</h5>
+            <input type="text" name="WriterName" class="form-control" autocomplete="off" placeholder="Yazar adını yazınız" />
+
+            <span style="color:red;">
+                @Html.ValidationMessageFor(x => x.WriterName)
+            </span>
+
+        </div>
+
+        <br />
+
+        <div>
+            <h5>Yazar Soyadı</h5>
+            <input type="text" name="WriterSurname" class="form-control" autocomplete="off" placeholder="Yazar soyadını yazınız" />
+
+            <span style="color:red;">
+                @Html.ValidationMessageFor(x => x.WriterSurname)
+            </span>
+
+        </div>
+
+        <br />
+
+        <div>
+            <h5>Mail</h5>
+            <input type="email" name="WriterMail" class="form-control" autocomplete="off" placeholder="Maili yazınız" />
+        </div>
+
+        <br />
+
+        <div>
+            <h5>Yazar Ünvanı</h5>
+            <input type="text" name="WriterTitle" class="form-control" autocomplete="off" placeholder="Yazar ünvanı yazınız" />
+            <span style="color:red;">
+                @Html.ValidationMessageFor(x => x.WriterTitle)
+            </span>
+        </div>
+
+        <br />
+
+        <div>
+            <h5>Şifre</h5>
+            <input type="@PasswordStatus" name="WriterPassword" class="form-control" autocomplete="off" placeholder="Şifreyi yazınız" />
+        </div>
+
+        <br />
+
+        <div>
+            <h5>Hakkımda</h5>
+            <textarea class="form-control" name="WriterAbout" rows="4" placeholder="Hakkımda yazınız"></textarea>
+
+            <span style="color:red;">
+                @Html.ValidationMessageFor(x => x.WriterAbout)
+            </span>
+        </div>
+
+        <br />
+        <div>
+            <h5>Yazar Fotoğraf Url</h5>
+            <input type="text" name="WriterName" class="form-control" autocomplete="off" placeholder="Yazar fotoğraf url yazınız" />
+
+
+
+        </div>
+
+        <br />
+
+
+
+
+        <div class="row">
+
+            <div class="col-md-8">
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <a href="/AdminWriter/Index/" class="btn btn-danger form-control">İptal</a>
+
+                    </div>
+
+                    <div class="col-md-6">
+                        <button class="btn btn-success form-control ">Kaydet</button>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </form>
+
+</div>
+
+<br />

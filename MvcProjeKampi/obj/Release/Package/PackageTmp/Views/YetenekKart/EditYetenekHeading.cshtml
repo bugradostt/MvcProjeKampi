@@ -1,0 +1,78 @@
+﻿@model EntityLayer.Concrete.YetenekHeading
+
+@{
+    ViewBag.Title = "EditYetenekHeading";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<br />
+
+<div class="container-fluid">
+
+
+    <h3>Başlık Güncelle</h3>
+
+    <br />
+
+
+
+
+    @using (Html.BeginForm("EditYetenekHeading", "YetenekKart", FormMethod.Post))
+    {
+
+        <input type="text" hidden class="form-control" name="YetenekHeadingId" value="@Html.ValueFor(x => x.YetenekHeadingId)" />
+
+        <br />
+        <h5>Başlık</h5>
+        <input type="text" required class="form-control" name="YetenekHeadingTitleName" value="@Html.ValueFor(x => x.YetenekHeadingTitleName)" />
+
+        <br />
+
+        <h5>Adı</h5>
+        <input type="text" required class="form-control" name="YetenekHeadingName" value="@Html.ValueFor(x => x.YetenekHeadingName)" />
+
+        <br />
+
+        <h5>Ünvanı</h5>
+        <input type="text" required class="form-control" name="YetenekHeadingUnvan" value="@Html.ValueFor(x => x.YetenekHeadingUnvan)" />
+
+        <br />
+
+        <h5>Profil Fotoğrafı</h5>
+        <input type="text" required class="form-control" name="YetenekHeadingImg" value="@Html.ValueFor(x => x.YetenekHeadingImg)" />
+
+       
+
+        <br />
+
+
+        <div class="row">
+
+            <div class="col-md-8">
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <a href="/YetenekKart/Index/" class="btn btn-danger form-control">İptal</a>
+
+                    </div>
+
+                    <div class="col-md-6">
+                        <button class="btn btn-warning form-control ">Güncelle</button>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+    }
+
+</div>

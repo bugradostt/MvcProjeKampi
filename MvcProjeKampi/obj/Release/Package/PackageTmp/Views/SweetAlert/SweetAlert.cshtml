@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "SweetAlert";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="~/Scripts/jquery-3.4.1.js"></script>
+
+<button id="tikla" class="btn btn-success"> Tıkla </button>
+
+
+<script>
+
+    $('#tikla').click(() => {
+        swal("Merhaba");
+    });
+
+</script>

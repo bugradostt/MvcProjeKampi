@@ -1,0 +1,92 @@
+﻿@model EntityLayer.Concrete.Category
+
+
+@{
+    ViewBag.Title = "CategoryAdd";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+
+
+<div class="container">
+
+    <h3>Kategori Ekleme</h3>
+
+    <br />
+    <br />
+
+    <form class="form-group" method="post">
+        <div>
+            <h5>Kategori Adı</h5>
+            <input type="text" name="CategoryName" class="form-control" autocomplete="off" placeholder="Kategori adını yazınız" />
+
+            <span style="color:red;">
+                @Html.ValidationMessageFor(x => x.CategoryName)
+            </span>
+
+        </div>
+
+        <br />
+
+        <div>
+            <h5>Kategori Rengi</h5>
+            <input type="color" class="form-control" name="CategoryColor"  />
+
+            <span style="color:red;">
+                @Html.ValidationMessageFor(x => x.CategoryColor)
+            </span>
+
+        </div>
+
+        <br />
+
+
+
+        <div>
+            <h5>Açıklama</h5>
+            <textarea class="form-control" name="CategoryDescription" rows="4" placeholder="Açıklamayı yazınız"></textarea>
+
+            <span style="color:red;">
+                @Html.ValidationMessageFor(x => x.CategoryDescription)
+            </span>
+        </div>
+
+        <br />
+
+        <div>
+            <input type="hidden" name="CategoryStatus" value="True" />
+        </div>
+
+        <br />
+
+
+        <div class="row">
+
+            <div class="col-md-8">
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <a href="/AdminCategory/Index/" class="btn btn-danger form-control">İptal</a>
+
+                    </div>
+
+                    <div class="col-md-6">
+                        <button class="btn btn-success form-control ">Kaydet</button>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </form>
+
+</div>

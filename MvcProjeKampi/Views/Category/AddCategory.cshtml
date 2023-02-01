@@ -1,0 +1,76 @@
+﻿@model EntityLayer.Concrete.Category
+
+
+@{
+    Layout = null;
+}
+
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+
+<div class="container">
+
+    <h1>Kategori Ekleme</h1>
+
+    <br />
+
+    <form class="form-group" method="post">
+        <div>
+            <h4>Kategori Adı</h4>
+            <input type="text" name="CategoryName" class="form-control" autocomplete="off" placeholder="Kategori adını yazınız" />
+           
+            <span style="color:red;" >
+                @Html.ValidationMessageFor(x => x.CategoryName)
+            </span>
+
+        </div>
+
+        <br />
+
+        <div>
+            <h4>Açıklama</h4>
+            <input type="text" name="CategoryDescription" class="form-control" autocomplete="off" placeholder="Açıklamayı yazınız" />
+           
+            <span style="color:red;">
+                @Html.ValidationMessageFor(x => x.CategoryDescription )
+            </span>
+        </div>
+
+        <br />
+
+        <div>
+           <input type="hidden"  name="CategoryStatus" value="True"/>
+        </div>
+
+        <br />
+
+
+        <div class="row">
+
+            <div class="col-md-8">
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <a href="/Category/GetCategoryList/" class="btn btn-danger form-control">İptal</a>
+
+                    </div>
+
+                    <div class="col-md-6">
+                        <button class="btn btn-success form-control ">Kaydet</button>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </form>
+
+</div>

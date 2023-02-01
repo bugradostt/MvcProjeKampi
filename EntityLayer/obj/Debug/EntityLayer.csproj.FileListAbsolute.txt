@@ -1,0 +1,35 @@
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\EntityLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\EntityLayer\bin\Debug\EntityLayer.dll
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\EntityLayer\bin\Debug\EntityLayer.pdb
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\EntityLayer\bin\Debug\EntityFramework.dll
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\EntityLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\EntityLayer\bin\Debug\EntityFramework.xml
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\EntityLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.dll
+C:\Users\bugra\Desktop\1- Dosyalar\2- Projler\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.pdb
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\EntityLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\EntityLayer\bin\Debug\EntityLayer.dll
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\EntityLayer\bin\Debug\EntityLayer.pdb
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\EntityLayer\bin\Debug\EntityFramework.dll
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\EntityLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\EntityLayer\bin\Debug\EntityFramework.xml
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\EntityLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.csproj.CopyComplete
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.dll
+C:\Users\bugra\Desktop\Projler\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.pdb
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\EntityLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\EntityLayer\bin\Debug\EntityLayer.dll
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\EntityLayer\bin\Debug\EntityLayer.pdb
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\EntityLayer\bin\Debug\EntityFramework.dll
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\EntityLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\EntityLayer\bin\Debug\EntityFramework.xml
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\EntityLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.csproj.CopyComplete
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.dll
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.pdb

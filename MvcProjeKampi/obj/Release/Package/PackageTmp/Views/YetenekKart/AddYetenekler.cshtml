@@ -1,0 +1,57 @@
+﻿<!--Modal Add Start-->
+<div class="modal" id="modalEkle2">
+
+    <div class="modal-dialog">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <div class="modal-title">
+                    <h3>Yetenek Ekle</h3>
+                </div>
+            </div>
+
+            <form class="form-group" action="/YetenekKart/AddYetenek/" method="post">
+                <div class="modal-body">
+
+
+                    <label>Yetenek Adı</label>
+                    <input type="text" required class="form-control" name="YeteneklerName" />
+                    <br />
+
+                    <label>Yetenek Değeri</label>
+                    <input type="range" required class="range1 form-control" name="YeteneklerValue" value="0" min="0" max="100" onmousemove="rangeSlider(this.value)">
+                    <span id="rangeValue">0</span>
+                    <br />
+
+
+
+
+                </div>
+
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-dismiss="modal">İptal</button>
+                    <button class="btn btn-warning">Kaydet</button>
+
+                </div>
+            </form>
+
+
+
+        </div>
+
+    </div>
+
+</div>
+<!--Modal Add End-->
+
+<script>
+    /* range */
+    function rangeSlider(value) {
+        document.getElementById('rangeValue').innerHTML = value;
+    }
+</script>
+
+<!-- jQuery -->
+<script src="~/webAdmin/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap -->

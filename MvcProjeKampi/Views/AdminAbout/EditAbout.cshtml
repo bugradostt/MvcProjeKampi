@@ -1,0 +1,74 @@
+﻿@model EntityLayer.Concrete.About
+
+@{
+    ViewBag.Title = "EditAbout";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+
+<div class="container-fluid">
+
+
+    <h3>Kategori Güncelle</h3>
+
+    <br />
+    
+
+
+
+    @using (Html.BeginForm("EditAbout", "AdminAbout", FormMethod.Post))
+    {
+
+        <input type="text" hidden class="form-control" name="AboutId" value="@Html.ValueFor(x => x.AboutId)" />
+
+        <br />
+        <h5>Detay 1</h5>
+        <input type="text" class="form-control" name="AboutDetails1" value="@Html.ValueFor(x => x.AboutDetails1)" />
+
+        <br />
+        <h5>Fotoğraf 1</h5>
+        <input type="text" class="form-control" name="AboutImage1" value="@Html.ValueFor(x => x.AboutImage1)" />
+
+
+        <br />
+        <h5>Detay 2</h5>
+        <input type="text" class="form-control" name="AboutDetails2" value="@Html.ValueFor(x => x.AboutDetails2)" />
+
+        <br />
+        <h5>Fotoğraf 2</h5>
+        <input type="text" class="form-control" name="AboutImage2" value="@Html.ValueFor(x => x.AboutImage2)" />
+
+
+        <br />
+       
+
+        <div class="row">
+
+            <div class="col-md-8">
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <a href="/AdminAbout/Index/" class="btn btn-danger form-control">İptal</a>
+
+                    </div>
+
+                    <div class="col-md-6">
+                        <button class="btn btn-warning form-control ">Güncelle</button>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+    }
+
+</div>

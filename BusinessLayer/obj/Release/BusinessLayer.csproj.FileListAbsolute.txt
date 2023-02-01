@@ -1,0 +1,48 @@
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\BusinessLayer\bin\Release\BusinessLayer.dll.config
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\BusinessLayer\bin\Release\BusinessLayer.dll
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\BusinessLayer\bin\Release\BusinessLayer.pdb
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\BusinessLayer\bin\Release\DataAccessLayer.dll
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\BusinessLayer\bin\Release\EntityFramework.dll
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\BusinessLayer\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\BusinessLayer\bin\Release\EntityLayer.dll
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\BusinessLayer\bin\Release\FluentValidation.dll
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\BusinessLayer\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\BusinessLayer\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\BusinessLayer\bin\Release\DataAccessLayer.pdb
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\BusinessLayer\bin\Release\DataAccessLayer.dll.config
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\BusinessLayer\bin\Release\EntityLayer.pdb
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\BusinessLayer\bin\Release\EntityLayer.dll.config
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\BusinessLayer\bin\Release\EntityFramework.xml
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\BusinessLayer\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\BusinessLayer\bin\Release\FluentValidation.xml
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\BusinessLayer\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\BusinessLayer\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\BusinessLayer\obj\Release\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\BusinessLayer\obj\Release\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\BusinessLayer\obj\Release\BusinessLayer.csproj.CopyComplete
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\BusinessLayer\obj\Release\BusinessLayer.dll
+C:\Users\bugra\Desktop\1- Projler\MvcProjeKampi\BusinessLayer\obj\Release\BusinessLayer.pdb
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\BusinessLayer\bin\Release\BusinessLayer.dll.config
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\BusinessLayer\bin\Release\BusinessLayer.dll
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\BusinessLayer\bin\Release\BusinessLayer.pdb
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\BusinessLayer\bin\Release\DataAccessLayer.dll
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\BusinessLayer\bin\Release\EntityFramework.dll
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\BusinessLayer\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\BusinessLayer\bin\Release\EntityLayer.dll
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\BusinessLayer\bin\Release\FluentValidation.dll
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\BusinessLayer\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\BusinessLayer\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\BusinessLayer\bin\Release\DataAccessLayer.pdb
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\BusinessLayer\bin\Release\DataAccessLayer.dll.config
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\BusinessLayer\bin\Release\EntityLayer.pdb
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\BusinessLayer\bin\Release\EntityLayer.dll.config
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\BusinessLayer\bin\Release\EntityFramework.xml
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\BusinessLayer\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\BusinessLayer\bin\Release\FluentValidation.xml
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\BusinessLayer\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\BusinessLayer\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\BusinessLayer\obj\Release\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\BusinessLayer\obj\Release\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\BusinessLayer\obj\Release\BusinessLayer.csproj.CopyComplete
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\BusinessLayer\obj\Release\BusinessLayer.dll
+C:\Users\bugra\Desktop\Dosyalarım\1-Projeler\MvcProjeKampi\BusinessLayer\obj\Release\BusinessLayer.pdb

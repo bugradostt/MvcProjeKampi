@@ -1,0 +1,49 @@
+﻿<!--Modal Add Start-->
+<div class="modal" id="modalEkle">
+
+    <div class="modal-dialog">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <div class="modal-title">
+                    <h3>Hakkımızda Ekle</h3>
+                </div>
+            </div>
+
+            <form class="form-group" action="/AdminAbout/AddAbout/" method="post">
+                <div class="modal-body">
+
+                    <input type="text" hidden class="form-control" name="AboutStatus"  value="True"/>
+                    <label>Hakkında Metin 1</label>
+                    <input type="text" class="form-control" required placeholder="Hakkıdında metnini giriniz" name="AboutDetails1" />
+                    <br />
+                    <label>Hakkında Görsel 1</label>
+                    <input type="text" class="form-control" required placeholder="Url'i giriniz" name="AboutImage1" />
+                    <br />
+                    <label>Hakkında Metin 2</label>
+                    <input type="text" class="form-control" required name="AboutDetails2" placeholder="Hakkıdında metnini giriniz" />
+                    <br />
+                    <label>Hakkında Görsel 2</label>
+                    <input type="text" class="form-control" required name="AboutImage2" placeholder="Url'i giriniz" />
+
+                </div>
+
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-dismiss="modal">İptal</button>
+                    <button class="btn btn-warning">Kaydet</button>
+
+                </div>
+            </form>
+
+
+
+        </div>
+
+    </div>
+
+</div>
+<!--Modal Add End-->
+<!-- jQuery -->
+   <script src="~/webAdmin/plugins/jquery/jquery.min.js"></script>
+   <!-- Bootstrap -->

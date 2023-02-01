@@ -1,0 +1,93 @@
+﻿@model EntityLayer.Concrete.Admin
+
+@{
+    ViewBag.Title = "EditUser";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+
+
+<br />
+
+<div class="container-fluid">
+
+
+    <h3>Kullanıcı Güncelle</h3>
+
+    <br />
+
+    <form class="form-group" method="post">
+        <input type="text" hidden class="form-control" name="AdminId" value="@Html.ValueFor(x => x.AdminId)" />
+
+        @{
+            string userName = Html.ValueFor(x => x.UserName).ToHtmlString();
+            string PasswordUserName = "";
+            PasswordUserName = userName;
+            char[] KarakterUserName = PasswordUserName.ToCharArray();
+
+            foreach (char a in KarakterUserName)
+            {
+                PasswordUserName += Convert.ToChar(a - 3).ToString();
+            }
+            userName = PasswordUserName.Substring(userName.Length);
+
+
+            string password = Html.ValueFor(x => x.Password).ToHtmlString();
+            string PasswordPassword = "";
+            PasswordPassword = password;
+            char[] KarakterPassword = PasswordPassword.ToCharArray();
+
+            foreach (char i in KarakterPassword)
+            {
+                PasswordPassword += Convert.ToChar(i - 5).ToString();
+            }
+            password = PasswordPassword.Substring(password.Length);
+        }
+
+      
+        <br />
+        <h5>Kullanıcı Adı</h5>
+        <input type="text" required class="form-control" name="UserName" value="@userName" />
+
+        <br />
+        <h5>Şifresi</h5>
+        <input type="text" required class="form-control" name="Password" value="@password "/>
+
+
+        <br />
+
+
+
+        <div class="row">
+
+            <div class="col-md-8">
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <a href="/AdminUser/Index/" class="btn btn-danger form-control">İptal</a>
+
+                    </div>
+
+                    <div class="col-md-6">
+                        <button class="btn btn-warning form-control ">Güncelle</button>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </form>
+
+</div>
+
+
+<br />
